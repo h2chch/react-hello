@@ -4,11 +4,12 @@ import './index.css';
 import App from './App';
 import Counter from './Counter'
 import Toggle from './Toggle'
+import TodoList from './TodoList'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Toggle />
+    <TodoList />
   </React.StrictMode>,
   document.getElementById('root')
 );
